@@ -22,7 +22,7 @@ export class ReplaySessionService {
   constructor() {
     console.log("service instantiated!")
     this.tracker = new OpenReplay({
-        projectKey: "JgPQyMLNAIZiCwkcxWkN",
+        projectKey: "<your project key>",
       __DISABLE_SECURE_MODE: true
     })
 
